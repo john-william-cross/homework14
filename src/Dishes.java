@@ -5,7 +5,7 @@ public class Dishes extends Chores {
     public List<String> dishType;
     public int numberOfDishes;
 
-    public Dishes(){
+    public Dishes() {
         //intentional
     }
 

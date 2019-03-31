@@ -16,7 +16,6 @@ public class Windows extends Chores {
         this.windowsCleanliness = windowsCleanliness;
     }
 
-
     @Override
     public String toString() {
         return "Windows{" +

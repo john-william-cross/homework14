@@ -9,12 +9,10 @@ public class ChoresList {
         //intentional
     }
 
-    public ChoresList (List<String> choreType, List<String> choreDoer){
+    public ChoresList(List<String> choreType, List<String> choreDoer) {
         this.choreType = choreType;
         this.choreDoer = choreDoer;
     }
-
-
 
     @Override
     public String toString() {

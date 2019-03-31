@@ -6,8 +6,8 @@ public class Runner {
 
         Person choreDoer = new Person("John", 4, true);
         ChoresList choresList = new ChoresList(Arrays.asList("dishes"), Arrays.asList("John"));
-        Chores chores = new Chores( "mow the lawn", "do the dishes", "wash the windows");
-        Dishes dishes = new Dishes(Arrays.asList("glasses", "silverware"), 15 );
+        Chores chores = new Chores("mow the lawn", "do the dishes", "wash the windows");
+        Dishes dishes = new Dishes(Arrays.asList("glasses", "silverware"), 15);
         Windows windows = new Windows(Arrays.asList(4), Arrays.asList("north side of house"), Arrays.asList(5));
         Lawn lawn = new Lawn(8, 2500);
 

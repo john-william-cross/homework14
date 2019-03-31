@@ -14,7 +14,6 @@ public class Chores {
         this.washWindows = washWindows;
     }
 
-
     @Override
     public String toString() {
         return "Chores{" +
