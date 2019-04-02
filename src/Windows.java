@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Windows extends Chores {
+public class Windows extends Chore {
 
     public List<Integer> numOfWindows;
     public List<String> windowsLocation;

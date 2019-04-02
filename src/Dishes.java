@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class Dishes extends Chores {
+public class Dishes extends Chore {
 
     public List<String> dishType;
     public int numberOfDishes;

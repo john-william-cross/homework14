@@ -1,14 +1,14 @@
-public class Chores {
+public class Chore {
 
     public String mowLawn;
     public String doDishes;
     public String washWindows;
 
-    public Chores() {
+    public Chore() {
         //intentional
     }
 
-    public Chores(String mowLawn, String doDishes, String washWindows) {
+    public Chore(String mowLawn, String doDishes, String washWindows) {
         this.mowLawn = mowLawn;
         this.doDishes = doDishes;
         this.washWindows = washWindows;
@@ -16,7 +16,7 @@ public class Chores {
 
     @Override
     public String toString() {
-        return "Chores{" +
+        return "Chore{" +
                 "mowLawn='" + mowLawn + '\'' +
                 ", doDishes='" + doDishes + '\'' +
                 ", washWindows='" + washWindows + '\'' +

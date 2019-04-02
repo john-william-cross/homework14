@@ -12,9 +12,7 @@ public class Person {
         this.name = name;
         this.energyLevel = energyLevel;
         this.isAvailable = isAvailable;
-
     }
-
 
     @Override
     public String toString() {

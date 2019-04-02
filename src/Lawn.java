@@ -1,4 +1,4 @@
-public class Lawn extends Chores {
+public class Lawn extends Chore {
 
     public int grassLength;
     public int lawnSize;

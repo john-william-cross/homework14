@@ -1,22 +1,22 @@
 import java.util.List;
 
-public class ChoresList {
+public class ChoreList {
 
     private List<String> choreType;
     private List<String> choreDoer;
 
-    public ChoresList() {
+    public ChoreList() {
         //intentional
     }
 
-    public ChoresList(List<String> choreType, List<String> choreDoer) {
+    public ChoreList(List<String> choreType, List<String> choreDoer) {
         this.choreType = choreType;
         this.choreDoer = choreDoer;
     }
 
     @Override
     public String toString() {
-        return "ChoresList{" +
+        return "ChoreList{" +
                 "choreType=" + choreType +
                 ", choreDoer=" + choreDoer +
                 '}';
